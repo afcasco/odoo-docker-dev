@@ -16,7 +16,7 @@ pycharm.
 ### 4. pip install -r requirements.txt<br><br>
 ### 5. Add a run configuration:
    
-![img.png](.images/img3.png)
+![img.png](.images/img3.png)<br><br>
 
 ### 6. Hit the run button and connect to odoo on localhost at port 8069
 
