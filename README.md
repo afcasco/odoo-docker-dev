@@ -12,7 +12,9 @@ pycharm.
 ![img.png](.images/img.png)<br><br>
 
 ### 3. Add a python interpreter
+
 ![img.png](.images/img2.png)<br><br>
+
 ### 4. pip install -r requirements.txt<br><br>
 ### 5. Add a run configuration:
    
