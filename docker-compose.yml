@@ -1,0 +1,17 @@
+version: '3.1'
+services:
+  odoo:
+    build: .
+    depends_on:
+      - mydb
+    ports:
+      - "22:22"
+      - "8069:8069"
+    volumes:
+      - ./odoo-custom-addons:/odoo15/odoo-custom-addons
+  mydb:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=odoo
+      - POSTGRES_USER=odoo
