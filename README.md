@@ -1,5 +1,12 @@
 # odoo-docker-dev
 
+### <i>TODO:</i> 
+#### fix odoo-custom-addons dir permissions
+#### add env variables to choose postgres/odoo versions
+#### optimize layers / change python image to reduce size
+
+<hr>
+<br>
 Setup an odoo image with ssh and a postgres container with an odoo-custom-addons bind, for remote ssh development with
 pycharm.
 
